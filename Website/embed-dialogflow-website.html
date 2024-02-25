@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
+  <title>Chatbot</title>
+  <style>
+          df-messenger {
+              --df-messenger-bot-message: #878fac;
+              --df-messenger-button-titlebar-color: #6175cf;
+              --df-messenger-chat-background-color: #e9e6e69d;
+              --df-messenger-font-color: rgb(5, 19, 51);
+              --df-messenger-send-icon: #878fac;
+              --df-messenger-user-message: #6175cf;
+              --df-messenger-send-icon: #3e1fc5;
+          }
+  </style>
+
+</head>
+<body>
+  <link rel="stylesheet" href="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/themes/df-messenger-default.css">
+  <script src="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/df-messenger.js"></script>
+  <df-messenger
+    location="us-east1"
+    project-id="your-project"
+    agent-id="bskjadgaglfsdf-ndq8637q8gdi899"
+    language-code="en"
+    max-query-length="120">
+  </df-messenger>
+  
+  <script>
+    window.addEventListener('dfMessengerLoaded', function (event) {
+      const dfMessenger = document.querySelector('df-messenger');
+      const openText = ("Hi! Please ask your question, I'm here to help =)");
+    dfMessenger.renderCustomText(openText);
+    });
+  </script>
+  
+</body>
+</html>
