@@ -1,4 +1,4 @@
-# Gemini-LangChain-RAG Powered Chatcot in Dialogflow
+# Gemini-LangChain-RAG Powered Chatbot in Dialogflow
 
 This project is part of the GDE's Gemini Sprint. The idea was to develop a chatbot that uses Gemini-1.0-Pro to answer questions, and has memory of past interactions by using LangChain. Also, it has its context enriched by RAG (Retrieval Augmented Generation). This memory obtained through allows the chatbot to remember past interactions independently of Dialogflow $session.params. RAG document is vectorized with gecko-embeddings, chunked and a FAISS index is created. Later, a TOP-K result of embeddings similarity is retrieved to answer the questions, along with the chat history.
 
