@@ -34,7 +34,7 @@ gcloud run deploy container-name --image gcr.io/your-project/container-name --mi
   
 <b>Final Project Screenshot 1:</b>
 
-<img scr=https://github.com/RubensZimbres/Gemini-RAG/blob/main/pics/dialog0.png>  
+<img src=https://github.com/RubensZimbres/Gemini-RAG/blob/main/pics/dialog0.png>  
   
 <b>Final Project Screenshot 2:</b>
   
