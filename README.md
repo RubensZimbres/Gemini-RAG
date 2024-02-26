@@ -32,7 +32,10 @@ gcloud builds submit --tag gcr.io/your-project/container-name . --timeout=85000
 gcloud run deploy container-name --image gcr.io/your-project/container-name --min-instances 1 --max-instances 5 --cpu 1 --allow-unauthenticated --memory 512Mi --region us-east1 --concurrency 10
 ```
   
+<b>Final Project Screenshot 1:</b>
+
 <img scr=https://github.com/RubensZimbres/Gemini-RAG/blob/main/pics/dialog0.png>  
   
+<b>Final Project Screenshot 2:</b>
   
 <img src=https://github.com/RubensZimbres/Gemini-RAG/blob/main/pics/dialog1.png>
