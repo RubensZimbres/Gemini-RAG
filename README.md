@@ -1,6 +1,6 @@
 # Gemini-RAG
 
-In this code, you have the steps to create a RAG (Retrieval Augmented Generation) application with Gemini and Langchain, build the image and deploy it in Cloud Run, add the Flask interface, and then deploy a Dialogfloe chatbot to a website.
+In this code, you have the steps to create a RAG (Retrieval Augmented Generation) application with Gemini and Langchain, build the image and deploy it in Cloud Run, add the Flask interface, and then deploy a Dialogflow chatbot to a website.
 
 
 <b>Steps:</b>  
