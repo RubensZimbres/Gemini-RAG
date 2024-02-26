@@ -1,0 +1,14 @@
+Flask==2.2.2
+Flask-Cors==4.0.0
+google-cloud
+google-cloud-aiplatform==1.42.1
+Werkzeug==2.2.2
+langchain==0.1.9
+langchain-community==0.0.21
+langchain-core==0.1.26
+langchain-experimental==0.0.49
+langchain-google-vertexai==0.0.5
+langchainhub==0.1.14
+faiss-cpu==1.7.2
+google-generativeai==0.3.2
+google-cloud-secret-manager
