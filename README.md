@@ -36,3 +36,4 @@ gcloud run deploy container-name --image gcr.io/your-project/container-name --mi
 
 <img src=https://github.com/RubensZimbres/Gemini-RAG/blob/main/pics/dislogflow22.png>  
   
+## _✨ Google ML Developer Programs team supported this work by providing Google Cloud Credits_
