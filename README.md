@@ -13,6 +13,10 @@ This project is part of the GDE's Gemini Sprint. The idea was to develop a chatb
 
 <img src=https://github.com/RubensZimbres/Gemini-RAG/blob/main/pics/RAG_.png>
 
+<b>Project Architecture</b>
+
+<img src=https://github.com/RubensZimbres/Gemini-RAG/blob/main/pics/RAG-architecture.png>
+
 In this repo, you have the steps to create a RAG (Retrieval Augmented Generation) application with Gemini and Langchain, build the image and deploy it in Cloud Run, add the Flask interface, and then deploy a Dialogflow chatbot to a website.
 
 
